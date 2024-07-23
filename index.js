@@ -9,3 +9,13 @@ $("h1").addClass("big-title class02")
 // caso sim ele retorna true
 
 $("h1").hasClass("class02")
+
+
+// alterando textos
+
+$("h1").text("Bye")
+
+
+//Adicionado HTML
+
+$("button").html("<em>Hey</em>")
