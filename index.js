@@ -69,6 +69,14 @@ $("h1").before("<button>New button</button>")
 // $("button").remove()
 
 
+
+
+ 
+
+// consulta para mais animações 
+// https://api.jquery.com/slideDown/
+// https://www.w3schools.com/jquery/jquery_ref_effects.asp
+
 // Para esconder e aparecer elementos
 
 //  $("button").on("click", function(){
@@ -78,6 +86,20 @@ $("h1").before("<button>New button</button>")
 
 // Outra opção porem altera a opacidade
 
+// $("button").on("click", function(){
+//     $("h1").fadeToggle()
+// })
+
+
+// Outra opção porem fica com animação de cortina subindo
+
+// $("button").on("click", function(){
+//     $("h1").slideToggle()
+// })
+
+
+// Outra opção que é mais refinada e altera o css
+
 $("button").on("click", function(){
-    $("h1").fadeToggle()
+    $("h1").animate({opacity: 0.5})
 })
